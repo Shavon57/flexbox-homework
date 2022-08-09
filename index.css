@@ -1,0 +1,41 @@
+
+
+body {
+    color: black;
+    height: 100vh;
+    margin: 0;
+}
+
+header, footer {
+    font-size: 40px;
+    border: 1px solid black;
+    height: 7%;
+}
+
+.sidebar-container, .content {
+    border: 1px solid black;
+}
+
+.container {
+    display: flex;
+    height: 86%;
+}
+
+.sidebar-container {
+    width: 300px;
+}
+
+div {
+    display: block;
+}
+
+.content    {
+    flex-grow: 1;
+}
+
+
+
+
+
+
+
